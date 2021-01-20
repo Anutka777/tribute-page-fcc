@@ -5,14 +5,14 @@ Build web page with functionality **[similar to this](https://codepen.io/freeCod
 <!-- ___ -->
 ##### **User stories**
 ___
-* [x] The page should have an element with a corresponding `id="main"`, which contains other elements.
-* [x] There should be an element with corresponding `id="title"`, which contains a string that describes the subject of the tribute page.
+* [x] My tribute page should have an element with a corresponding `id="main"`, which contains other elements.
+* [x] I should see an element with corresponding `id="title"`, which contains a string that describes the subject of the tribute page.
 
-* [x] There should be a `div` element with corresponding `id="img-div`.
+* [x] I should see a `div` element with corresponding `id="img-div`.
 
-* [x] Within the `img-div` element should be an `img` element with corresponding `id="image"`.
+* [x] Within the `img-div` element I should see an `img` element with corresponding `id="image"`.
 
-* [x] Within the `img-div` element there should be an element with a corresponding `id="img-caption"` that contains textual content describing the image shown in `img-div`.
+* [x] Within the `img-div` element I should see an element with a corresponding `id="img-caption"` that contains textual content describing the image shown in `img-div`.
 
 * [x] I should see an element with a corresponding `id="tribute-info"`, which contains textual content describing the subject of the tribute page.
 
