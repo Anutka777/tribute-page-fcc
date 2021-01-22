@@ -18,7 +18,7 @@ ___
 
 * [x] I should see an `a` element with a corresponding `id="tribute-link"`, which links to an outside site that contains additional information about the subject of the tribute page. Link should open in new tab.
 
-* [x] The `img` element should responsively resize, relative to the with of its parent element, without exceeding the original size.
+* [x] The `img` element should responsively resize, relative to the width of its parent element, without exceeding the original size.
 
 * [x] The `img` element should be centered within its parent element.
 ___
