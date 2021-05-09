@@ -27,6 +27,8 @@
 
 #title {
   padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   width: 100%;
   font-size: 6rem;
   text-align: center;
@@ -37,11 +39,12 @@
   position: relative;
   margin:  auto;
   height: 100vh;
+  overflow: hidden;
 }
 
 #img {
   display: block;
-  min-width:100%;
+  min-width: 100%;
   object-fit: cover;
   height: 100vh;
 }
@@ -70,6 +73,8 @@
   bottom: 50%;
   left: 0;
   right: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
   font-size: 2rem;
   text-align: center;
 }
@@ -77,8 +82,8 @@
 #tribute-link {
   display: block;
   position: absolute;
-  bottom: 20%;
-  left: 1rem;
+  bottom: 1rem;
+  left: 2rem;
   font-size: 2rem;
   text-decoration: none;
   text-align: center;
@@ -92,4 +97,86 @@
 #tribute-link:hover {
   transform: translateY(-3px);
   font-size: 2.5rem;
+}
+
+/* Media */
+
+@media (max-height: 850px) {
+  * {
+  font-size: 13px;
+  }
+
+  #tribute-info li {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-height: 600px) {
+  * {
+  font-size: 13px;
+  }
+
+  #tribute-info li {
+    font-size: 1rem;
+  }
+}
+
+@media (max-height: 455px) {
+  #tribute-link {
+    font-size: 1rem;
+  }
+
+  #title {
+    font-size: 3rem;
+  }
+
+  #tribute-info {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  #tribute-info h2 {
+    font-size: 2rem;
+  }
+
+  #tribute-info li {
+    line-height: 1;
+  }
+}
+
+@media (min-width: 1450px) {
+  #tribute-link {
+  bottom: 3rem;
+  left: 12rem;
+  }
+
+  * {
+    font-size: 16px;
+    }
+}
+
+@media (max-width: 500px) {
+  #main {
+    background-position-x: 70%;
+  }
+
+  #img {
+    position: absolute;
+    left: -70%;
+   }
+  
+  #tribute-link img {
+    width: 4rem;
+  }
+}
+
+@media (max-width: 370px) {
+  * {
+  font-size: 12px;
+  }
+
+  #img {
+    position: absolute;
+    left: -80%;
+   }
 }
