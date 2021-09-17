@@ -19,16 +19,22 @@
   background-repeat: no-repeat;
 }
 
-#main .content-container {
+.content-container {
   position: relative;
   width: 100%;
   height: 100%;
 }
 
+.first-page {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 70%;
+  max-width: 1500px;
+}
+
 #title {
-  padding-top: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
   width: 100%;
   font-size: 6rem;
   text-align: center;
@@ -101,7 +107,7 @@
 
 /* Media */
 
-@media (max-height: 850px) {
+/* @media (max-height: 850px) {
   * {
   font-size: 13px;
   }
@@ -179,4 +185,4 @@
     position: absolute;
     left: -80%;
    }
-}
+} */
