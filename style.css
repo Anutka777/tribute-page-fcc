@@ -32,12 +32,23 @@
   transform: translate(0, -50%);
   width: 70%;
   max-width: 1500px;
+  height: 70%;
 }
 
 #title {
+  position: absolute;
+  top: 0;
   width: 100%;
   font-size: 6rem;
   text-align: center;
+  transition-property: all;
+  transition-duration: 3s;
+}
+
+#title:hover {
+  top: -2%;
+  font-size: 7rem;
+  color: crimson;
 }
 
 #img-div {
@@ -56,22 +67,34 @@
 }
 
 #tribute-info {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%);
   padding-top: 2rem;
   padding-bottom: 2rem;
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
+  transition-property: all;
+  transition-duration: 3s;
+}
+
+#tribute-info:hover{
+  top: 30%;
+  color: crimson;
 }
 
 #tribute-info h2 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  font-size: 4rem;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 
 #tribute-info li {
-  font-size: 2rem;
+  list-style: none;
   line-height: 1.4;
+  font-size: 1.2rem;
 }
 
 #img-caption {
@@ -83,6 +106,13 @@
   padding-right: 1rem;
   font-size: 2rem;
   text-align: center;
+  transition-property: all;
+  transition-duration: 3s;
+}
+
+#img-caption:hover {
+  bottom: 48%;
+  font-size: 2.5rem;
 }
 
 #tribute-link {
@@ -93,7 +123,9 @@
   font-size: 2rem;
   text-decoration: none;
   text-align: center;
-  color: white;
+  color: #F1F7ED;
+  transition-property: all;
+  transition-duration: 3s;
 }
 
 #tribute-link img {
@@ -101,8 +133,9 @@
 }
 
 #tribute-link:hover {
-  transform: translateY(-3px);
+  transform: translateY(-10px);
   font-size: 2.5rem;
+  color: crimson;
 }
 
 /* Media */
