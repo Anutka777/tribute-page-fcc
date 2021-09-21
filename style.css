@@ -62,8 +62,8 @@
 #img {
   display: block;
   min-width: 100%;
-  object-fit: cover;
   height: 100vh;
+  object-fit: cover;
 }
 
 #tribute-info {
@@ -140,82 +140,60 @@
 
 /* Media */
 
-/* @media (max-height: 850px) {
+@media (min-width: 1700px) {
   * {
-  font-size: 13px;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1350px) {
+  #img {
+    position: absolute;
+    left: -230px;
   }
 
-  #tribute-info li {
+  #img-caption {
     font-size: 1.5rem;
   }
-}
 
-@media (max-height: 600px) {
-  * {
-  font-size: 13px;
-  }
-
-  #tribute-info li {
-    font-size: 1rem;
+  #img-caption:hover {
+    font-size: 1.8rem;
   }
 }
 
-@media (max-height: 455px) {
-  #tribute-link {
-    font-size: 1rem;
+@media (max-width: 950px) {
+   #title {
+    font-size: 4rem;
   }
 
-  #title {
-    font-size: 3rem;
-  }
-
-  #tribute-info {
-    font-size: 3rem;
-    text-align: center;
-  }
-  
-  #tribute-info h2 {
-    font-size: 2rem;
-  }
-
-  #tribute-info li {
-    line-height: 1;
-  }
-}
-
-@media (min-width: 1450px) {
-  #tribute-link {
-  bottom: 3rem;
-  left: 12rem;
-  }
-
-  * {
-    font-size: 16px;
-    }
-}
-
-@media (max-width: 500px) {
   #main {
-    background-position-x: 70%;
+    background-position-x: -490px;
   }
 
   #img {
-    position: absolute;
-    left: -70%;
-   }
-  
-  #tribute-link img {
-    width: 4rem;
+    left: -360px;
+  }
+
+  #img-caption {
+    padding: 0;
+    font-size: 1rem;
+  }
+
+  #img-caption:hover {
+    font-size: 1.2rem;
   }
 }
 
-@media (max-width: 370px) {
-  * {
-  font-size: 12px;
+@media (max-width: 780px) {
+  #main {
+    background-position: -550px;
   }
 
-  #img {
-    position: absolute;
-    left: -80%;
-   }
-} */
+  #img-caption:hover {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 550px) {
+  
+}
