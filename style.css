@@ -166,8 +166,16 @@
     font-size: 4rem;
   }
 
-  #main {
+  #title:hover {
+    font-size: 5rem;
+  }
+
+  /* #main {
     background-position-x: -490px;
+  } */
+
+  #tribute-info:hover {
+    top: 20%;
   }
 
   #img {
@@ -182,12 +190,24 @@
   #img-caption:hover {
     font-size: 1.2rem;
   }
+
+  #tribute-link img {
+    width: 4rem;
+  }
+
+  #tribute-link {
+    font-size: 1rem;
+  }
+
+  #tribute-link:hover{
+    font-size: 1.1rem;
+  }
 }
 
 @media (max-width: 780px) {
-  #main {
+  /* #main {
     background-position: -550px;
-  }
+  } */
 
   #img-caption:hover {
     font-size: 1rem;
@@ -199,9 +219,5 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-
-  #tribute-link {
-    font-size: 1.5em;
   }
 }
